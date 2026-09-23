@@ -70,7 +70,16 @@ L1:      DEC DX
 DATA:    DB 09H, 05H, 06H, 0AH ; Array of data
 ```
 ## OUTPUT OF THE PROGRAM:
+---
+Stepper Motor rotates continuously in clockwise direction
+according to the sequence:
 
+09H → 05H → 06H → 0AH → 09H → 05H → 06H → 0AH → ...
+
+The motor rotates continuously with a constant delay between
+successive steps. The speed of rotation can be varied by
+changing the delay value.
+---
 ## RESULT
 
 Thus, the assembly language program for rotating the stepper motor in both clockwise and anticlockwise directions was written and verified.
